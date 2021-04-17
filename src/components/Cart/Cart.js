@@ -28,6 +28,7 @@ const Cart = (props) => {
         const precision = num.toFixed(2);
         return Number(precision);
     }
+    
     return (
         <div>
             <h4 className="bg-danger">Order Summary</h4>
